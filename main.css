@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(1, 1, 21);
+}
+header,
+section .container{
+    padding: 16px 0;
+    background-color: rgb(1, 1, 21);
+    color: #ffff;
+    font-family:"Baskervville SC", serif;
+    font-size: 30px;
+}
+
+header nav li{
+    display: inline;
+    font-size: 30px;
+    margin-right: 100px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+
+section .mundo{
+    display: flex;
+    align-items: flex-start;
+}
+
+section .mundo img{
+    height: 700px;
+    padding: 20px;
+}
+section h2{
+    margin-top: 20px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+section p{
+    font-size: 40px;
+    color: #ffff;
+}
+section h3{
+    color: #ffff;
+    font-size: 50px;
+}
+.contact-methods{
+    display: flex;
+    margin-left: 60px;
+
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+form textarea{
+    resize: none;
+}
+section .endereco{
+    margin-left: 500px;
+}
